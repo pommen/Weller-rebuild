@@ -841,8 +841,7 @@ Wire Wire Line
 	3350 2300 3350 2700
 Connection ~ 3350 2700
 NoConn ~ 2850 2400
-NoConn ~ 2850 2500
-Text GLabel 2850 2600 2    50   Input ~ 0
+Text GLabel 2850 2500 2    50   Input ~ 0
 HandleTempRaw
 $Comp
 L Device:R R?

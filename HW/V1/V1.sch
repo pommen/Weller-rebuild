@@ -99,7 +99,7 @@ U 1 1 5C5C0C04
 P 5250 1250
 F 0 "Q1" V 5593 1250 50  0000 C CNN
 F 1 "Si4435" V 5502 1250 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5000 1550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5000 1550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/72123/72123.pdf" H 5100 1650 50  0001 C CNN
 	1    5250 1250
 	0    -1   -1   0   
@@ -841,8 +841,7 @@ Wire Wire Line
 	3350 2300 3350 2700
 Connection ~ 3350 2700
 NoConn ~ 2850 2400
-NoConn ~ 2850 2500
-Text GLabel 2850 2600 2    50   Input ~ 0
+Text GLabel 2850 2500 2    50   Input ~ 0
 HandleTempRaw
 $Comp
 L Device:R R?
