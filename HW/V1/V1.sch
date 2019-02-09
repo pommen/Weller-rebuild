@@ -73,16 +73,14 @@ $EndComp
 $Comp
 L Device:R R35
 U 1 1 5C5C00D8
-P 5750 2200
-F 0 "R35" H 5820 2246 50  0000 L CNN
-F 1 "10K" H 5820 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 2200 50  0001 C CNN
-F 3 "~" H 5750 2200 50  0001 C CNN
-	1    5750 2200
+P 5750 1800
+F 0 "R35" H 5820 1846 50  0000 L CNN
+F 1 "10K" H 5820 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 1800 50  0001 C CNN
+F 3 "~" H 5750 1800 50  0001 C CNN
+	1    5750 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 1600 5750 1550
 Wire Wire Line
 	5750 1250 5750 1150
 Wire Wire Line
@@ -117,21 +115,21 @@ Wire Wire Line
 $Comp
 L dk_Transistors-FETs-MOSFETs-Single:BSS138 Q2
 U 1 1 5C5C1165
-P 5750 1800
-F 0 "Q2" H 5858 1853 60  0000 L CNN
-F 1 "BSS138" H 5858 1747 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 5950 2000 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5950 2100 60  0001 L CNN
-F 4 "BSS138CT-ND" H 5950 2200 60  0001 L CNN "Digi-Key_PN"
-F 5 "BSS138" H 5950 2300 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5950 2400 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 5950 2500 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5950 2600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294" H 5950 2700 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 50V 220MA SOT-23" H 5950 2800 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 5950 2900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5950 3000 60  0001 L CNN "Status"
-	1    5750 1800
+P 5750 2200
+F 0 "Q2" H 5858 2253 60  0000 L CNN
+F 1 "BSS138" H 5858 2147 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 5950 2400 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5950 2500 60  0001 L CNN
+F 4 "BSS138CT-ND" H 5950 2600 60  0001 L CNN "Digi-Key_PN"
+F 5 "BSS138" H 5950 2700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5950 2800 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 5950 2900 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5950 3000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294" H 5950 3100 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 50V 220MA SOT-23" H 5950 3200 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 5950 3300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5950 3400 60  0001 L CNN "Status"
+	1    5750 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -146,9 +144,7 @@ F 3 "" H 5750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 2400 5750 2350
-Wire Wire Line
-	5750 2050 5750 2000
+	5750 2000 5750 1950
 Wire Wire Line
 	5750 1550 5250 1550
 Wire Wire Line
@@ -304,33 +300,18 @@ SolderPWM
 $Comp
 L Device:R R5
 U 1 1 5C5725DA
-P 6150 2250
-F 0 "R5" H 6200 2050 50  0000 L CNN
-F 1 "100R" V 6150 2150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 2250 50  0001 C CNN
-F 3 "~" H 6150 2250 50  0001 C CNN
-	1    6150 2250
+P 6150 2600
+F 0 "R5" H 6200 2400 50  0000 L CNN
+F 1 "100R" V 6150 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 2600 50  0001 C CNN
+F 3 "~" H 6150 2600 50  0001 C CNN
+	1    6150 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2100 6150 1900
-Wire Wire Line
-	6150 1900 6050 1900
-Wire Wire Line
-	6150 2400 6150 2800
+	6150 2750 6150 2800
 Wire Wire Line
 	6150 2800 6050 2800
-$Comp
-L Peters:AD8541ARZ U9
-U 1 1 5C5780AE
-P 8700 4400
-F 0 "U9" H 8850 4800 50  0000 C CNN
-F 1 "AD8541ARZ" H 8900 4700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8750 4500 50  0001 C CNN
-F 3 "http://192.168.0.102/api/part_attachments/1028/getFile" H 8850 4600 50  0001 C CNN
-	1    8700 4400
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR0144
 U 1 1 5C5780F4
@@ -474,12 +455,12 @@ $EndComp
 $Comp
 L Device:C C19
 U 1 1 5C57E5CB
-P 8200 4550
-F 0 "C19" H 8315 4596 50  0000 L CNN
-F 1 "10n" H 8315 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8238 4400 50  0001 C CNN
-F 3 "~" H 8200 4550 50  0001 C CNN
-	1    8200 4550
+P 7800 4550
+F 0 "C19" H 7915 4596 50  0000 L CNN
+F 1 "10n" H 7915 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 4400 50  0001 C CNN
+F 3 "~" H 7800 4550 50  0001 C CNN
+	1    7800 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -508,27 +489,19 @@ F 3 "" H 9050 5350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 5350 9050 5300
-Wire Wire Line
-	8400 4400 8200 4400
-Connection ~ 8400 4400
-Wire Wire Line
-	8150 4400 8200 4400
-Connection ~ 8200 4400
 $Comp
 L power:GND #PWR0148
 U 1 1 5C585BC1
-P 8200 4850
+P 7800 4750
 AR Path="/5C585BC1" Ref="#PWR0148"  Part="1" 
 AR Path="/5C556B0F/5C585BC1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0148" H 8200 4600 50  0001 C CNN
-F 1 "GND" H 8205 4677 50  0000 C CNN
-F 2 "" H 8200 4850 50  0001 C CNN
-F 3 "" H 8200 4850 50  0001 C CNN
-	1    8200 4850
+F 0 "#PWR0148" H 7800 4500 50  0001 C CNN
+F 1 "GND" H 7805 4577 50  0000 C CNN
+F 2 "" H 7800 4750 50  0001 C CNN
+F 3 "" H 7800 4750 50  0001 C CNN
+	1    7800 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 4850 8200 4750
 $Comp
 L power:VCC #PWR0149
 U 1 1 5C58680A
@@ -645,16 +618,11 @@ F 3 "http://192.168.0.102/api/part_attachments/1634/getFile" H 7850 4500 50  000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 4400 7600 4400
+	7850 4400 7800 4400
 Wire Wire Line
 	7600 4650 7800 4650
 Wire Wire Line
-	7800 4650 7800 4750
-Wire Wire Line
-	7800 4750 8200 4750
-Connection ~ 8200 4750
-Wire Wire Line
-	8200 4750 8200 4700
+	7800 4650 7800 4700
 $Comp
 L power:GND #PWR0155
 U 1 1 5C58F5F9
@@ -1041,4 +1009,30 @@ Wire Wire Line
 	9850 3100 9850 3200
 Text GLabel 8700 2450 0    50   Input ~ 0
 HandleTemp
+Wire Wire Line
+	5750 1550 5750 1650
+Wire Wire Line
+	6150 2450 6150 2300
+Wire Wire Line
+	6150 2300 6050 2300
+Connection ~ 7800 4400
+Wire Wire Line
+	7800 4400 7600 4400
+Connection ~ 7800 4700
+Wire Wire Line
+	7800 4700 7800 4750
+Wire Wire Line
+	8150 4400 8400 4400
+$Comp
+L Peters:AD8091 U?
+U 1 1 5C5B9AFC
+P 8700 4400
+F 0 "U?" H 8900 4800 50  0000 C CNN
+F 1 "AD8091" H 8850 4700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8700 4650 50  0001 C CNN
+F 3 "http://192.168.0.102/api/part_attachments/1022/getFile" H 8800 4750 50  0001 C CNN
+	1    8700 4400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8400 4400
 $EndSCHEMATC
