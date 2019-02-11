@@ -943,8 +943,6 @@ Wire Wire Line
 	3600 3050 4300 3050
 Text HLabel 6700 3050 2    50   Input ~ 0
 MOSFETtemp
-Text HLabel 6700 3150 2    50   Input ~ 0
-powerTemp
 $Comp
 L Peters:OLED_128x64_i2c_0.96" U11
 U 1 1 5C6C52B5

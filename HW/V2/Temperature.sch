@@ -170,22 +170,6 @@ F 3 "" H 7750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5C65A03F
-P 8100 4750
-AR Path="/5C65A03F" Ref="#PWR?"  Part="1" 
-AR Path="/5C556B0F/5C65A03F" Ref="#PWR?"  Part="1" 
-AR Path="/5C556ABA/5C65A03F" Ref="#PWR?"  Part="1" 
-AR Path="/5C668421/5C65A03F" Ref="#PWR?"  Part="1" 
-AR Path="/5C659DD6/5C65A03F" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR0144" H 8100 4500 50  0001 C CNN
-F 1 "GND" H 8105 4577 50  0000 C CNN
-F 2 "" H 8100 4750 50  0001 C CNN
-F 3 "" H 8100 4750 50  0001 C CNN
-	1    8100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Peters:AD8221 U?
 U 1 1 5C65A045
 P 6650 3850
@@ -227,19 +211,6 @@ Wire Wire Line
 	6150 3800 6150 3750
 Wire Wire Line
 	6150 3750 6100 3750
-$Comp
-L Device:CP_Small C?
-U 1 1 5C65A05A
-P 8100 4650
-AR Path="/5C668421/5C65A05A" Ref="C?"  Part="1" 
-AR Path="/5C659DD6/5C65A05A" Ref="C18"  Part="1" 
-F 0 "C18" H 8188 4696 50  0000 L CNN
-F 1 "10uF" H 8188 4605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 8100 4650 50  0001 C CNN
-F 3 "~" H 8100 4650 50  0001 C CNN
-	1    8100 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C65A061
@@ -381,35 +352,6 @@ F 1 "GND" H 8055 2077 50  0000 C CNN
 F 2 "" H 8050 2250 50  0001 C CNN
 F 3 "" H 8050 2250 50  0001 C CNN
 	1    8050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C65A0C7
-P 8400 2200
-AR Path="/5C65A0C7" Ref="#PWR?"  Part="1" 
-AR Path="/5C556B0F/5C65A0C7" Ref="#PWR?"  Part="1" 
-AR Path="/5C556ABA/5C65A0C7" Ref="#PWR?"  Part="1" 
-AR Path="/5C668421/5C65A0C7" Ref="#PWR?"  Part="1" 
-AR Path="/5C659DD6/5C65A0C7" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 8400 1950 50  0001 C CNN
-F 1 "GND" H 8405 2027 50  0000 C CNN
-F 2 "" H 8400 2200 50  0001 C CNN
-F 3 "" H 8400 2200 50  0001 C CNN
-	1    8400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C?
-U 1 1 5C65A0CD
-P 8400 2100
-AR Path="/5C668421/5C65A0CD" Ref="C?"  Part="1" 
-AR Path="/5C659DD6/5C65A0CD" Ref="C19"  Part="1" 
-F 0 "C19" H 8488 2146 50  0000 L CNN
-F 1 "CP_Small" H 8488 2055 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 8400 2100 50  0001 C CNN
-F 3 "~" H 8400 2100 50  0001 C CNN
-	1    8400 2100
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2250 3    50   Input ~ 0
@@ -1108,7 +1050,7 @@ L Device:R R30
 U 1 1 5C67E91B
 P 3800 4150
 F 0 "R30" H 3870 4196 50  0000 L CNN
-F 1 "1K" H 3870 4105 50  0000 L CNN
+F 1 "2K" H 3870 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 4150 50  0001 C CNN
 F 3 "~" H 3800 4150 50  0001 C CNN
 	1    3800 4150
@@ -1154,7 +1096,7 @@ L Device:R R31
 U 1 1 5C6818D5
 P 4250 4750
 F 0 "R31" H 4320 4796 50  0000 L CNN
-F 1 "2K" H 4320 4705 50  0000 L CNN
+F 1 "10K" H 4320 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 4750 50  0001 C CNN
 F 3 "~" H 4250 4750 50  0001 C CNN
 	1    4250 4750
@@ -1198,10 +1140,6 @@ Wire Wire Line
 	6650 3450 6650 3500
 Text GLabel 7750 4500 1    50   Input ~ 0
 +5vREF
-Text GLabel 8100 4550 1    50   Input ~ 0
-+5vREF
 Text GLabel 8050 1950 1    50   Input ~ 0
-+5vREF
-Text GLabel 8400 2000 1    50   Input ~ 0
 +5vREF
 $EndSCHEMATC
