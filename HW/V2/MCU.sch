@@ -1024,4 +1024,41 @@ F 3 "~" H 8250 5600 50  0001 C CNN
 	1    8250 5600
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5C62E9D6
+P 4550 1550
+F 0 "J?" V 4610 1691 50  0000 L CNN
+F 1 "I2CHeader" V 4701 1691 50  0000 L CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "~" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	0    1    1    0   
+$EndComp
+Text HLabel 4450 1750 3    50   Input ~ 0
+SDA
+Text HLabel 4550 1750 3    50   Input ~ 0
+SDA
+$Comp
+L power:VCC #PWR?
+U 1 1 5C630BDC
+P 4350 1750
+F 0 "#PWR?" H 4350 1600 50  0001 C CNN
+F 1 "VCC" H 4367 1923 50  0000 C CNN
+F 2 "" H 4350 1750 50  0001 C CNN
+F 3 "" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C630C5F
+P 4650 1750
+F 0 "#PWR?" H 4650 1500 50  0001 C CNN
+F 1 "GND" H 4800 1700 50  0000 C CNN
+F 2 "" H 4650 1750 50  0001 C CNN
+F 3 "" H 4650 1750 50  0001 C CNN
+	1    4650 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

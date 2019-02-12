@@ -1007,4 +1007,6 @@ Connection ~ 4150 950
 Connection ~ 3850 950 
 Wire Wire Line
 	3850 950  3800 950 
+Text Notes 4800 1400 0    50   ~ 0
+Solders directly to MOSFET pins
 $EndSCHEMATC
