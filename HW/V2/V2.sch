@@ -24,6 +24,7 @@ F3 "SCL" I R 6350 3600 50
 F4 "SolderPWM2" I R 6350 3100 50 
 F5 "SolderPWM1" I R 6350 3000 50 
 F6 "MOSFETtemp" I R 6350 2700 50 
+F7 "WMRTresistorDivider" I R 6350 3350 50 
 $EndSheet
 $Sheet
 S 7500 2450 1850 1200
@@ -41,6 +42,7 @@ F0 "Temperature mangement" 50
 F1 "Temperature.sch" 50
 F2 "SDA" I R 6400 4500 50 
 F3 "SCL" I R 6400 4350 50 
+F4 "WMRTresistorDivider" I R 6400 4700 50 
 $EndSheet
 Wire Wire Line
 	7500 3100 6350 3100
@@ -70,4 +72,10 @@ U 5C556B0F
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
+Wire Wire Line
+	6400 4700 6750 4700
+Wire Wire Line
+	6750 4700 6750 3350
+Wire Wire Line
+	6750 3350 6350 3350
 $EndSCHEMATC

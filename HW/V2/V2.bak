@@ -41,6 +41,7 @@ F0 "Temperature mangement" 50
 F1 "Temperature.sch" 50
 F2 "SDA" I R 6400 4500 50 
 F3 "SCL" I R 6400 4350 50 
+F4 "WMRTresistorDivider" I R 6400 4700 50 
 $EndSheet
 Wire Wire Line
 	7500 3100 6350 3100
