@@ -316,30 +316,6 @@ Text GLabel 1850 1700 0    50   Input ~ 0
 in1
 Text GLabel 6150 1800 2    50   Input ~ 0
 ut1
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 5C67816F
-P 9000 3350
-F 0 "J1" H 9080 3342 50  0000 L CNN
-F 1 "Conn_01x06" H 9080 3251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9000 3350 50  0001 C CNN
-F 3 "~" H 9000 3350 50  0001 C CNN
-	1    9000 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5C679C6C
-P 8800 3750
-F 0 "#PWR0122" H 8800 3500 50  0001 C CNN
-F 1 "GND" H 8805 3577 50  0000 C CNN
-F 2 "" H 8800 3750 50  0001 C CNN
-F 3 "" H 8800 3750 50  0001 C CNN
-	1    8800 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 3650 8800 3750
 Text GLabel 8800 3250 0    50   Input ~ 0
 in1
 Text GLabel 8950 4050 0    50   Input ~ 0
@@ -662,6 +638,17 @@ F 1 "GND" H 8955 4077 50  0000 C CNN
 F 2 "" H 8950 4250 50  0001 C CNN
 F 3 "" H 8950 4250 50  0001 C CNN
 	1    8950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5C67D5F4
+P 9000 3250
+F 0 "J1" H 9080 3292 50  0000 L CNN
+F 1 "Conn_01x03" H 9080 3201 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9000 3250 50  0001 C CNN
+F 3 "~" H 9000 3250 50  0001 C CNN
+	1    9000 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
